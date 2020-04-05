@@ -1,0 +1,83 @@
+/* PROFILE.CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    /* box-sizing: border-box; */
+    font-family: 'Roboto', sans-serif;
+}
+.nav,.main-sec {
+    padding: 0px;
+}
+.menu{
+    padding: 0px;
+}
+.nav{
+    height: 100vh;
+    box-shadow: 0px 1px 3px #b5c4d4;
+}
+canvas {
+    box-shadow: 0px 0px 3px #b5c4d4;
+}
+.nav-item {
+    padding: 20px 40px;
+}
+.nav-item:hover {
+    background-color: #27c2a5;
+    padding: 20px 40px;
+}
+.nav-item::before{
+    font-family: 'Font Awesome\ 5 Free';
+    margin-right: 15px;
+}
+.nav-home::before {
+    content: "\f015";
+}
+.nav-about::before {
+    content: "\f059";
+}
+.nav-message::before {
+    content: "\f0e0";
+}
+.nav-user-profile::before {
+    content: "\f2bb";
+}
+.nav-review::before {
+    content: "\f06e";
+}
+.nav-item a{
+    text-align: center;
+    color: #555e60;
+    font-size: 16px;
+    text-decoration: none;
+}
+.logo{
+    padding: 20px 0px;
+}
+.items div,.items {
+    padding: 0;
+}
+.items div input {
+    height: 25px;
+}
+.header{
+    height: 50px;
+}
+.body{
+    position: relative;
+    top: 15px;
+}
+
+@media (min-width: 425px){
+    .nav{
+        height: fit-content;
+    }
+}
+@media (min-width: 375px){
+    .nav{
+        height: fit-content;
+    }
+}
+@media (min-width: 320px){
+    .nav{
+        height: fit-content;
+    }
+}

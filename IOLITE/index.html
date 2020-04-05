@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Iolite Login</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+
+    <!-- Font-awesome solid Icon -->
+    <link href="https://use.fontawesome.com/releases/v5.13.0/css/solid.css" rel="stylesheet">
+
+    <!-- fontawesome CDN-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <!--project workspaces -->
+    <div class="modal-dialog text-center">
+        <!-- This is to get pop login on existing page
+       -(start)modal-content
+       -(start-end)modal-header
+       -(start-end)modal-body
+       -(start-end)modal-footer
+       -(end)modal-content -->
+        <div class="col-sm-8 main-section">
+            <div class="modal-content">
+
+                <div class="col-12 user-img">
+                    <img src="Images/face.png" alt="face.img">
+                </div>
+
+                <form class="col-12" onsubmit="return validate()" action="profile.html">
+                    <div class="form-group">
+                        <input id="user" class="form-control" type="text" name="" id="" placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <input id="password" class="form-control" type="password" name="" id=""
+                            placeholder="Enter Username">
+                    </div>
+                    <button class="btn" type="submit"><i class="fas fas fa-sign-in-alt"></i>Login</button>
+
+                </form>
+
+                <div class="col-12 forgot">
+                    <a href="#">Forgot password ?</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="iolite.js" type="text/javascript"></script>
+    <!--project workspaces ends-->
+
+</body>
+
+</html>
